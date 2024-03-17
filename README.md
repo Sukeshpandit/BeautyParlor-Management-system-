@@ -16,7 +16,7 @@ This project is a beauty parlor management system developed as a mini project du
 
 ## Usage
 
-1. Start the Flask application: `python bpmsmain.py`
+1. Start the Flask application: `python3 bpmsmain.py`
 2. Access the application in your web browser at `http://localhost:5000`
 
 ## Screenshots
