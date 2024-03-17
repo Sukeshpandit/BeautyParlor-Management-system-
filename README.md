@@ -1,12 +1,12 @@
 # Beauty Parlor Management System
 
-This project is a beauty parlor management system developed as a mini project during the 5th semester.It aims to streamline the operations of a beauty parlor.The system is built using Python, Flask, MySQL, HTML, and CSS.
+This project is a beauty parlor management system developed as a mini project during the 5th semester.It aims to streamline the operations of a beauty parlor.The system is built using Python, Flask, MySQL, HTML, and CSS with Bootstrap.
 
 ## Technologies Used
 
 - **Backend**: Python, Flask
 - **Database**: MySQL
-- **Frontend**: HTML, CSS ,JS
+- **Frontend**: HTML, CSS(Bootstrap ),JS
 
 ## Installation
 
