@@ -10,7 +10,7 @@ This project is a beauty parlor management system developed as a mini project du
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your_username/beauty-parlor-management-system.git`
+1. Clone the repository: `git clone https://github.com/Sukeshpandit/BeautyParlor-Management-system-.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Create a MySQL database in xaamp and import the `bpms.sql`
 
