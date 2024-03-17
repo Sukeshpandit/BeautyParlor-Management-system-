@@ -1,0 +1,258 @@
+body { 
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif; 
+    box-sizing: border-box;
+    line-height: 1.6; 
+    background-color: rgb(214, 213, 213);
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.hero-section {     
+    height: 100vh;
+    width: 100%;
+    background-size: cover;         
+    background-repeat: no-repeat;
+    animation: imageroll 30s  infinite ;
+}
+
+@keyframes imageroll {
+    0%,100%{
+      background-image: url(/static/mainpage1.jpg);
+    }
+    25%{
+      background-image: url(/static/mainpage2.jpg);
+    }
+
+    45%{
+      background-image: url(/static/mainpage3.jpg);
+    }
+    75%{
+      background-image: url(/static/mainpage4.jpg);
+    }
+    
+    95%{
+      background-image: url(/static/mainpage5.jpg);
+    }
+    
+  }
+
+.hero-caption { 
+    position: absolute;
+    left:950px;
+    top: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+  
+.hero-title { 
+    font-size: 20px; 
+    color: #ffffff; 
+    font-weight: 600; 
+    margin-bottom: 30px; 
+}
+.hero-text { 
+    font-size: 16px; 
+    color: #ffffff; 
+    margin-bottom: 60px; 
+}
+.servicebutton { 
+    font-family: serif; 
+    display: inline-block; 
+    padding: 16px 20px; 
+    margin-bottom: 0; 
+    font-size: 15px; 
+    font-weight: 700;
+    letter-spacing: 2px; 
+    text-align: center; 
+    text-transform: uppercase;
+    border-radius: 25px; 
+    color: rgb(26, 26, 26); 
+    background: linear-gradient(40deg, rgb(255, 255, 255) 0%, rgb(107, 107, 107) 42%, rgb(75, 67, 65) 100%);
+    text-decoration: none;
+    transition: all ease-in 0.5s;
+}
+.servicebutton:hover{
+    color: rgba(0, 0, 0, 0.61);
+    text-decoration: none;
+}
+/* NAV BAR AND MAIN SCREEN ENDS */
+
+
+/* ABOUT US STARTS HERE */
+#aboutmus-section{
+    height: 100vh;
+    width: 100%;
+}
+.aboutus-heading{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    color:rgb(156, 156, 156);
+    margin: 20px 0px;
+}
+.aboutus-container{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+.aboutus{
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 20px;
+}
+.aboutus-img img{
+    height: 250px;
+    padding-right: 80px;
+    margin-bottom: 20px;
+}
+/* ABOUT US ENDS HERE */
+
+
+/* OUR SERVICES STARTS HERE */
+.ourservices-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(156, 156, 156);
+    margin: 20px 0px;
+}
+.cards{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.hair{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(87, 87, 87, 0.425);
+    border-radius: 10px;
+    margin-right: 100px;
+    transition: all ease 0.9s;
+}
+.hair:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 161px -29px rgb(128, 128, 128);
+
+}
+.hairimg {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hairimg img{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.hairdetails{
+    text-align: center;
+}
+.hair-heading p{
+    font-size: 25px;
+    color: rgb(82, 82, 82);
+}
+.hairimg a:hover{ 
+    text-decoration: none;
+
+}
+.makeup{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(87, 87, 87, 0.425);
+    border-radius: 10px;
+    margin-left: 100px;
+    transition: all ease 0.9s;
+
+}
+.makeup:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 161px -29px rgb(128, 128, 128);
+
+}
+.makeupimg{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.makeupimg a:hover{ 
+    text-decoration: none;
+
+}
+.makeupimg img{
+    height: 300px;
+    /* margin-bottom: 10px; */
+
+}
+.makeupdetails{
+    text-align: center;
+}
+.makeup-heading p{
+    font-size: 25px;
+    color: rgb(82, 82, 82);
+}
+/* OUR SERVICES ENDS HERE */
+
+
+/* CONTACT US STARTS HERE */
+
+.contactus-section{
+    height: 50vh;
+    background-color: rgb(42, 43, 43);
+}
+.fontawesomes{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.fa-facebook-square{
+    padding-right: 20px;
+    color: rgb(0, 110, 255);
+    cursor: pointer;
+}
+.fa-linkedin{
+    padding-left: 20px;
+    color: rgb(0, 110, 255);
+    cursor: pointer;
+
+}
+.fa-instagram{
+    color: rgb(194, 70, 101);
+    cursor: pointer;
+
+}
+.footerdiscription{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;margin-bottom: 20px;
+    text-align: center;
+}
+
+/* CONTACT US ENDS HERE */
+

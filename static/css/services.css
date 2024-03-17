@@ -1,0 +1,13 @@
+.appointmentheading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a:hover{
+    text-decoration: none;
+}
+.appointment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

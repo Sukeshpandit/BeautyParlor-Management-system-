@@ -1,0 +1,160 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    padding:0px;
+    margin: 0px;
+    background-color: #000000;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftitems {
+    position: absolute;
+    left: 170px;
+    top: 80px;
+}
+
+.quote .headquote{
+    font-family: 'Sora', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: #8D1689;
+}
+
+.subquote{
+    margin-top: -20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px ;
+    text-align: center;
+    color: white;
+}
+
+.blushimage img{
+    position: absolute;
+    left: 0px;
+    top: 120px;
+    height: 450px;
+}
+
+.logincont{
+   position: absolute;
+   right: 180px;
+   top:110px ;
+   border:1px solid #D827D1;
+   border-radius: 20px;
+   padding: 25px 20px;
+   background-color: #1A1919;
+   box-shadow: 0px 0px 20px 1px hsl(310, 40%, 30%);
+}
+
+.signintext{
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 30px;
+    color: white;
+}
+
+.fontawesome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 25px;
+
+}
+.fa-google{
+    color: #FC0404;
+}
+
+.fa-facebook{
+    color: #106FFD;
+}
+
+.fa-linkedin{
+    color: #005DEA;
+}
+
+.emaildetails input{
+    font-family: 'Roboto', sans-serif;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 25px;
+    background-color: #2C2C2C;
+    border: 1px solid #222121;
+    border-radius: 20px;
+    color: #979797;
+    padding-left: 30px;
+    font-size: 12px;
+    outline: none;
+}
+.usernamedetails input{
+    font-family: 'Roboto', sans-serif;
+    height: 25px;
+    width: 250px;
+    background-color: #2C2C2C;
+    border: 1px solid #222121;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    color: #979797;
+    padding-left: 30px;
+    font-size: 12px;
+    outline: none;
+}
+.passworddetails input{
+    font-family: 'Roboto', sans-serif;
+    height: 25px;
+    width: 250px;
+    background-color: #2C2C2C;
+    border: 1px solid #222121;
+    border-radius: 20px;
+    color: #979797;
+    padding-left: 30px;
+    font-size: 12px;
+    margin-bottom: 25px;   
+    outline: none;
+}
+.signinbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signinbutton button{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+    border: 1px solid #89216B;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    background: -webkit-linear-gradient(to right, #d04ed6, #834d9b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d04ed6, #834d9b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    cursor: pointer;   
+    transition: all ease 1s; 
+    color: white;
+}   
+.signinbutton button:hover{
+    background: #DA4453;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.asklogin{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+    text-align: center;
+    color: white;
+}
+.asklogin a{
+    color: #005DEA;
+}

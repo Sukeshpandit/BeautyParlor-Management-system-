@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <!-- Style css -->
+    <link rel="stylesheet" href="/static/css/signup.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="leftitems">
+            <div class="quote">
+                <div class="headquote">
+                    HELLO FRIEND!
+                </div>
+                <div class="subquote">
+                   <P>Enter your personal details and start <br>
+                      your journey with us</P>
+                </div>
+            </div>
+            <div class="blushimage">
+                <img src="/static/Happy Bunch Chat.png">
+            </div>
+        </div>
+
+        <div class="rightitems">
+            <div class="logincont">
+                <form action="/signup" method="POST">
+                    <div class="signintext">
+                        Sign in
+                    </div>
+                    
+                    <div class="fontawesome">
+                        <i class="fa fa-google fa-2x"></i>
+                        <i class="fa fa-facebook fa-2x"></i>
+                        <i class="fa fa-linkedin fa-2x"></i>
+                    </div>
+                    
+                    <div class="emaildetails">
+                        <input type="email" name="email" placeholder="email" required>
+                    </div>
+
+                    <div class="usernamedetails">
+                        <input type="text" name="username" placeholder="username" required>
+                    </div>
+
+                    <div class="passworddetails">
+                        <input type="password" name="password" placeholder="password" required>
+                    </div>
+
+                    <div class="signinbutton">
+                        <button >SIGN IN</button>
+                     </div>
+                     <div class="asklogin">
+                        Already have acccount ? <a href="/login">Login</a>
+                     </div>
+                     
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
